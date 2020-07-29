@@ -10,7 +10,7 @@ def nb_kg_co2(nb_annee, cout_installation, kwh_par_an, rendement, kgco2_par_kwh)
 
 plt.style.use("seaborn")
 x_pompe_a_chaleur = range(0, 11)
-y_pompe_a_chaleur = [nb_kg_co2(n, 1563, 4000, 2, 0.08) for n in x_pompe_a_chaleur]
+y_pompe_a_chaleur = [nb_kg_co2(n, 2739.5, 4000, 2, 0.08) for n in x_pompe_a_chaleur]
 
 x_chaudiere_charbon = range(0, 11)
 y_chaudiere_charbon = [nb_kg_co2(n, 0, 4000, 0.9, 0.300) for n in x_chaudiere_charbon]
