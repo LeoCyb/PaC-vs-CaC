@@ -4,7 +4,7 @@ from math import *
 # cout_installation en kg de CO2
 # Le rendement définit le nombre d'unité de chaleur que produit chaque unité d'énergie mis dans le système (un rendement de 2 signifie que chaque kWh est transformé en 2 kWh d'énergie thermique)
 # Cout d'installation d'une pompe à chaleur : 2739.5 kg de CO2
-# Cout d'installation d'une chaudière à gaz : 350 kg de CO2
+# Cout d'installation d'une chaudière à gaz : 353 kg de CO2
 
 def nb_kg_co2(nb_annee, cout_installation, kwh_par_an, rendement, kgco2_par_kwh):
     return cout_installation + nb_annee * kwh_par_an / rendement * kgco2_par_kwh
