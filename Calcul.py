@@ -1,6 +1,8 @@
 from matplotlib import pyplot as plt
 from math import *
 
+# cout_installation en kg de CO2
+# Le rendement définit le nombre d'unité de chaleur que produit chaque unité d'énergie mis dans le système (un rendement de 2 signifie que chaque kWh est transformé en 2 kWh d'énergie thermique)
 
 def nb_kg_co2(nb_annee, cout_installation, kwh_par_an, rendement, kgco2_par_kwh):
     return cout_installation + nb_annee * kwh_par_an / rendement * kgco2_par_kwh
