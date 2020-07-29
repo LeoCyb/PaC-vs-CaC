@@ -10,7 +10,7 @@ https://www.sciencedirect.com/science/article/pii/S0378778817323101#sec0028
 
 - CO2 émis par la combustion de gaz, de charbon et de fioul : https://www.carbonindependent.org/15.html
 
-- Consommation de chaudière à pétrole et gaz : https://post.parliament.uk/research-briefings/post-pn-0523/
+- Consommation des chaudières à fiou, gaz et charbon et leurs rendements : https://fr.wikipedia.org/wiki/Fioul#Fioul_domestique
 
 - gCO2/kWh d'éléctricité en France : https://www.electricitymap.org/zone/FR
 
